@@ -1,2 +1,11 @@
 # Autoloader-PSR-4
-Autoloader mit Startvorlage
+## Beschreibung
+
+Dieses Beispiel dint als Schnell-Vorlage für den Start mit einem Autoload-Mechanismus nach PSR-4-Standard
+* Quelle: https://www.php-fig.org/psr/psr-4/ 
+
+## Merkmale:
+* nur ein öffentlich sichtbares Verzeichnis [src/public](src/public) mit der einzigen Datei [index.php](src/public/index.php)  
+
+##Vorteil:
+Beim Absturz oder einer Fehlkonfiguration des Servers sind die kritischen Pfade, in den PHP liegt nicht öffentlich erreichbar.
