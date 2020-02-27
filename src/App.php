@@ -1,8 +1,6 @@
 <?php
 
 namespace HEF;
-new App;
-
 
 class App
 {
@@ -12,7 +10,8 @@ class App
 
         // schreib hier deinen Code!
 
-        print_r('App is running ..!' . PHP_EOL );
+        print_r("App is running ..!" . PHP_EOL  );
     }
+
 
 }
