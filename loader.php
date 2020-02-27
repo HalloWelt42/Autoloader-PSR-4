@@ -10,8 +10,8 @@ spl_autoload_register( function ( $called_class ) {
 
     $base_dir = __DIR__ . DIRECTORY_SEPARATOR . 'src\\';
 
-    $str_len = mb_strlen( $prefix );
-    $class = mb_substr( $called_class , $str_len );
+    $str_len = strlen( $prefix );
+    $class = substr( $called_class , $str_len );
 
     $class_file = str_replace( '\\' , '/' , "{$base_dir}{$class}.php" );
 
