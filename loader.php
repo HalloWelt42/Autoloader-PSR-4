@@ -5,10 +5,10 @@
  */
 spl_autoload_register( function ( $called_class ) {
 
-    $project_name = 'GDV2IMA';
+    $project_name = 'HEF';
     $prefix = "{$project_name}\\";
 
-    $base_dir = __DIR__ . DIRECTORY_SEPARATOR;
+    $base_dir = __DIR__ . DIRECTORY_SEPARATOR . 'src\\';
 
     $str_len = strlen( $prefix );
     $class = substr( $called_class , $str_len );
